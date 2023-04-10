@@ -1,9 +1,12 @@
-import React, { useLayoutEffect } from 'react';
+import React, { useEffect, useLayoutEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import SingleCategory from '../SingleCategory/SingleCategory';
 
 const JobCategory = () => {
-    const jobs = useLoaderData();
+    const [job, setJob] = useState([]);
+    useEffect(()=>{
+        fetch('job.json').then(res => res.json()).then(items => setJob (items))
+    },[])
     return (
         <div className='my-28'>
             <div>
@@ -12,7 +15,7 @@ const JobCategory = () => {
             </div>
             <div className='flex gap-10 md:w-5/6 w-11/12 mx-auto'>
                 {
-                    jobs.map(e => (<SingleCategory key={e.id} e={e}></SingleCategory>))
+                    job.map(e => (<SingleCategory key={e.id} e={e}></SingleCategory>))
                 }
             </div>
         </div>

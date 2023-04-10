@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import { getData } from '../../Utils/FakeDb';
+import { useLoaderData } from 'react-router-dom';
 import SingleItem from '../SingleItem/SingleItem';
 
 const FeaturedJobs = () => {
-    const [datas, setdatas] = useState([])
-   
-    
-    useEffect(()=>{
-        fetch('featured.json').then(res => res.json()).then(items => setdatas(items))
-    },[])
-    
+    // const [data, setData] = useState()
+    const datas = useLoaderData();
+   const someDatas = datas.slice(0,4)
+   const [jobs, setJobs] = useState(someDatas)
+
+   const handleShowBtn = () =>{
+    setJobs(datas)
+   }
+
     return (
         <div>
             <div>
@@ -19,11 +21,11 @@ const FeaturedJobs = () => {
             </div>
             <div className='grid grid-cols-2 gap-5 md:w-5/6 mx-auto '>
                 {
-                    datas.map(singleData => (<SingleItem key={singleData.id}  singleData={singleData}></SingleItem>))
+                    jobs.map(singleData => (<SingleItem key={singleData.id}  singleData={singleData}></SingleItem>))
                 }
             </div>
             <div className='text-center my-5'>
-            <button className='btn '>Show All</button>
+            <button className='btn' onClick={handleShowBtn}>Show All</button>
             </div>
             </div>
         </div>

@@ -15,10 +15,10 @@ import ItemDetails from './components/ItemDetails/ItemDetails';
 const router = createBrowserRouter([
   {path: "/", element: <App></App>, 
 children: [
-  {path: "/", element: <Home></Home>, loader: () => fetch('job.json'),},
+  {path: "/", element: <Home></Home>, loader: () => fetch('/public/featured.json'),},
   {path: "/statistics", element: <Statistics></Statistics>,},
   {path: "details/:id", element: <ItemDetails></ItemDetails>, loader: () => fetch('/public/featured.json'),},
-  {path: "/jobs", element: <AppJobs></AppJobs>,},
+  {path: "/jobs", element: <AppJobs></AppJobs>, loader: () => fetch('/public/featured.json'),},
   {path: "/blog", element: <Blogs></Blogs>,}
 ]}
   
