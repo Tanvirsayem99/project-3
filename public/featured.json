@@ -1,0 +1,116 @@
+[
+    {
+       "id": "1" ,
+       "companyName":"Google LLc ",
+       "logo":"https://cdn-icons-png.flaticon.com/512/5968/5968863.png",
+       "jobTitle": "Technical Database Engineer",
+       "remoteOrOnsite":  {"status": "Onsite", "status1": "Full Time" },
+       "location": "Mountain View, California",
+       "salary": "100k-150k",
+       "jobDescription": "Google LLC (/ɡu:ɡəl/ ( listen)) is an American multinational technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence, and consumer electronics.",
+       "jobResponsibility": "Job responsibilities refer to the duties and tasks of their particular roles. This is sometimes referred to as the jobDescription. Roles, however, refer to a person's position on a team. The individual roles that make up a team vary depending on the organization or business.",
+       "eductionalRequirments":"Bachelor's degree in Computer Science, a similar technical field of study, or equivalent practical experience",
+       "experiences":"2 years of experience with software development in one or more programming languages",
+       "contact":{
+        "phone":"08434324234",
+        "address":"Amphitheatre Parkway in Mountain View, California",
+        "email":"www.google@gmail.com"
+       }
+
+    },
+    {
+        "id": "2" ,
+        "companyName":"Netflix",
+        "logo":"https://cdn-icons-png.flaticon.com/512/5977/5977590.png",
+        "jobTitle": "Senior Product Designer",
+        "remoteOrOnsite":  {"status": "Remote", "status1": "Full Time" },
+        "location": "CA 95032,",
+        "salary": "70k-150k",
+        "jobDescription": "Netflix LLC (/ɡu:ɡəl/ ( listen)) is an American multinational technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence, and consumer electronics.",
+        "jobResponsibility": "Job responsibilities refer to the duties and tasks of their particular roles. This is sometimes referred to as the jobDescription. Roles, however, refer to a person's position on a team. The individual roles that make up a team vary depending on the organization or business.",
+        "eductionalRequirments":"Bachelor's degree in Computer Science, a similar technical field of study, or equivalent practical experience",
+        "experiences":"4 years of experience with software development in one or more programming languages",
+        "contact":{
+         "phone":"866716-0414",
+         "address":"Netflix Corporate Headquarters 100 Winchester Circle Los Gatos, CA 95032,",
+         "email":"www.netflix@gmail.com"
+        }
+ 
+     },
+     {
+        "id": "3" ,
+        "companyName":"Apple",
+        "logo":"https://cdn-icons-png.flaticon.com/512/0/747.png",
+        "jobTitle": "junior software engineer",
+        "remoteOrOnsite":  {"status": "Onsite", "status1": "Full Time" },
+        "location": "United States",
+        "salary": "150k-200k",
+        "jobDescription": "Apple LLC (/ɡu:ɡəl/ ( listen)) is an American multinational technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence, and consumer electronics.",
+        "jobResponsibility": "Job responsibilities refer to the duties and tasks of their particular roles. This is sometimes referred to as the jobDescription. Roles, however, refer to a person's position on a team. The individual roles that make up a team vary depending on the organization or business.",
+        "eductionalRequirments":"Bachelor's degree in Computer Science, a similar technical field of study, or equivalent practical experience",
+        "experiences":"1.5 years of experience with software development in one or more programming languages",
+        "contact":{
+         "phone":"937463927423",
+         "address":"Apple Software Upgrade Center,United States",
+         "email":"www.apple@gmail.com"
+        }
+ 
+     },
+     {
+        "id": "4" ,
+        "companyName":"Microsoft",
+        "logo":"https://cdn-icons-png.flaticon.com/512/732/732221.png",
+        "jobTitle": "senior Database Engineer",
+        "remoteOrOnsite":  {"status": "Onsite", "status1": "Full Time" },
+        "location": "Washington,USA",
+        "salary": "200k-250k",
+        "jobDescription": "Microsoft LLC (/ɡu:ɡəl/ ( listen)) is an American multinational technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence, and consumer electronics.",
+        "jobResponsibility": "Job responsibilities refer to the duties and tasks of their particular roles. This is sometimes referred to as the jobDescription. Roles, however, refer to a person's position on a team. The individual roles that make up a team vary depending on the organization or business.",
+        "eductionalRequirments":"Bachelor's degree in Computer Science, a similar technical field of study, or equivalent practical experience",
+        "experiences":"5 years of experience with software development in one or more programming languages",
+        "contact":{
+         "phone":"0947322374",
+         "address":"Washington,USA",
+         "email":"www.microsoft@gmail.com"
+        }
+ 
+     },
+     {
+        "id": "5" ,
+        "companyName":"facebook",
+        "logo":"https://cdn-icons-png.flaticon.com/512/733/733547.png",
+        "jobTitle": "junior software engineer",
+        "remoteOrOnsite": {"status": "Remote", "status1": "Full Time" },
+        "location": "Menlo Park, CA 94025",
+        "salary": "200k-350k",
+        "jobDescription": "Facebook LLC (/ɡu:ɡəl/ ( listen)) is an American multinational technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence, and consumer electronics.",
+        "jobResponsibility": "Job responsibilities refer to the duties and tasks of their particular roles. This is sometimes referred to as the jobDescription. Roles, however, refer to a person's position on a team. The individual roles that make up a team vary depending on the organization or business.",
+        "eductionalRequirments":"Bachelor's degree in Computer Science, a similar technical field of study, or equivalent practical experience",
+        "experiences":"no need experiences",
+        "contact":{
+         "phone":"9474632928923",
+         "address":"Facebook Headquarters 1 Hacker Way Menlo Park, CA 94025",
+         "email":"www.facebook@gmail.com"
+        }
+ 
+     },
+     {
+        "id": "6" ,
+        "companyName":"amazon",
+        "logo":"https://cdn-icons-png.flaticon.com/512/10096/10096351.png",
+        "jobTitle": "senior software engineer",
+        "remoteOrOnsite": {"status": "Onsite", "status1": "Full Time" },
+        "location": "Seattle 98109, WA",
+        "salary": "200k-450k",
+        "jobDescription": "amazon LLC (/ɡu:ɡəl/ ( listen)) is an American multinational technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence, and consumer electronics.",
+        "jobResponsibility": "Job responsibilities refer to the duties and tasks of their particular roles. This is sometimes referred to as the jobDescription. Roles, however, refer to a person's position on a team. The individual roles that make up a team vary depending on the organization or business.",
+        "eductionalRequirments":"Bachelor's degree in Computer Science, a similar technical field of study, or equivalent practical experience",
+        "experiences":"5 years of experience with software development in one or more programming languages",
+        "contact":{
+         "phone":"8937478937",
+         "address":"410 Terry Ave N, Seattle 98109, WA",
+         "email":"www.amazon@gmail.com"
+        }
+ 
+     }
+]
