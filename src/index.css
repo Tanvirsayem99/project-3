@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.butoon{
+    @apply bg-gradient-to-r from-violet-400 to-violet-700 h-10 px-2 pt-2 text-white rounded-md;
+}

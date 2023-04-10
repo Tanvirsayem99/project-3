@@ -17,7 +17,8 @@ const SingleItem = ({singleData, seam}) => {
             <div className='flex'><img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" alt="" className='w-5'/><p>{location}</p></div>
              <div className='flex'><img src="https://cdn-icons-png.flaticon.com/512/3135/3135673.png" alt="" className='w-5' /><p>{salary}</p></div>
             </div>
-            <Link to={`/details/${id}`}>View Details</Link>
+            <Link to={`/details/${id}`} className="butoon w-28">View Details</Link>
+            
         </div>
     );
 };

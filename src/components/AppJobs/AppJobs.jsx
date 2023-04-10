@@ -4,20 +4,34 @@ import { getStoredData } from '../../Utils/FakeDb';
 import StoredJobs from '../StoredJobs/StoredJobs';
 
 const AppJobs = () => {
-    let sumaya = []
     const storedJobs = useLoaderData();
-    const [seam, setSeam] = useState()
-    const storedItem = getStoredData();
-    for(const item in storedItem){
-        const sayem = storedJobs.filter(e => e.id === item)
-        sumaya.push(sayem)
+    let cart = []
+    const sayem = getStoredData()
+    for(const id in sayem){
+        const storedItems = storedJobs.find(e => e.id === id)
+        if(storedItems){
+            cart.push(storedItems)
+            console.log('hello')
+        }
+        else{
+            console.log('hi')
+        }
+        console.log(storedItems)
+        
     }
-    console.log(sumaya)
+    
+
+    
     return (
         <div>
+            <div className='bg-slate-200 h-[25vh] flex justify-center items-center'>
+                <h1 className='text-center font-semibold text-2xl'>Applied Jobs</h1>
+            </div>
+            <div>
             {
-                sumaya.map(e => (<StoredJobs key={e.id} e={e}></StoredJobs>))
+                cart.map(e => (<StoredJobs key={e.id} e={e}></StoredJobs>))
             }
+        </div>
         </div>
     );
 };

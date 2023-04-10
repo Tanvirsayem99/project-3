@@ -16,6 +16,10 @@ const ItemDetails = () => {
     
     
     return (
+        <div>
+            <div className='bg-slate-200 h-[25vh] flex justify-center items-center'>
+                <h1 className='text-center font-semibold text-2xl'>Job Details</h1>
+            </div>
         <div className='flex w-11/12 mx-auto gap-10 text-justify'>
             <div className='w-4/6 bg-slate-50 p-10 grid gap-5'>
             <h1><b>job Description:</b> {existItem.jobDescription}</h1>
@@ -24,7 +28,7 @@ const ItemDetails = () => {
 
             <p><b>Experience:</b> <br /> {existItem.experiences}</p>
             </div>
-            <div className='bg-slate-100 p-5 '>
+            <div className='bg-slate-100 p-5 grid'>
                 <p className='text-center font-semibold text-2xl my-5'>job details</p>
                 <hr />
 
@@ -54,8 +58,11 @@ const ItemDetails = () => {
                     <span>Address: {existItem.contact.address}</span>
                     </div>
                 </div>
-                <Link to="/jobs" onClick={()=> handlCart(identity.id)}>Apply Now</Link>
+                <div className='text-center mt-5'>
+                <Link to="/jobs" onClick={()=> handlCart(identity.id)} className="butoon w-24 py-3">Apply Now</Link>
+                </div>
             </div>
+        </div>
         </div>
     );
 };
