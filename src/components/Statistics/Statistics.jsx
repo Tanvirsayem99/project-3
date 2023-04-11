@@ -1,38 +1,10 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 import { Area, AreaChart, CartesianGrid, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Statistics = () => {
 
-    const data01 = [
-        {
-          "name": "Assignment-1",
-          "value": 60
-        },
-        {
-          "name": "Assignment-2",
-          "value": 60
-        },
-        {
-          "name": "Assignment-3",
-          "value": 60
-        },
-        {
-          "name": "Assignment-4",
-          "value": 53
-        },
-        {
-          "name": "Assignment-5",
-          "value": 60
-        },
-        {
-          "name": "Assignment-6",
-          "value": 60
-        },
-        {
-          "name": "Assignment-7",
-          "value": 60
-        }
-      ];
+    const data01 = useLoaderData();
     return (
         <div>
           <div className='bg-slate-200 h-[25vh] flex justify-center items-center'>
