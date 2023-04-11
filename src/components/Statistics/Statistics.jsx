@@ -10,7 +10,7 @@ const Statistics = () => {
           <div className='bg-slate-200 h-[25vh] flex justify-center items-center'>
                 <h1 className='text-center font-semibold text-2xl'>Job Details</h1>
             </div>
-          <div className='mx-auto w-11/12'>
+          <div className='mx-auto w-11/12 mt-3 mb-12'>
           <AreaChart width={1200} height={500} data={data01}
   margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
   <defs>
