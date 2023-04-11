@@ -14,7 +14,7 @@ const SingleItem = ({singleData}) => {
             <div className='border-2 border-t-slate-200 px-2 py-1'>{remoteOrOnsite.status}</div>
             <div className='border-2 border-t-slate-200 px-2 py-1'>{remoteOrOnsite.status1}</div>
             </div>
-            <div className='flex gap-20 my-5'>
+            <div className='flex md:flex-row flex-col gap-5 md:gap-20 my-5'>
             <div className='flex gap-3'><img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" alt="" className='w-5'/><p>{location}</p></div>
              <div className='flex gap-3'><img src="https://cdn-icons-png.flaticon.com/512/3135/3135673.png" alt="" className='w-5' /><p>Salary: {salary}</p></div>
             </div>

@@ -29,11 +29,11 @@ const AppJobs = () => {
             <div className='bg-slate-200 h-[25vh] flex justify-center items-center'>
                 <h1 className='text-center font-semibold text-2xl'>Applied Jobs</h1>
             </div>
-            <div className='flex gap-5 mt-5 mb-2 ml-auto w-40 mr-28'>
+            <div className='flex md:flex-row flex-col gap-5 mt-5 mb-2 ml-auto w-40 mr-28'>
                 <button onClick={()=>remoteFilterHandler ()} className="bg-orange-200 py-1 px-3 rounded-md">remote</button>
                 <button onClick={()=>onsiteFilterHandler()} className="bg-orange-200 py-1 px-3 rounded-md">onsite</button>
             </div>
-            <div>
+            <div className='grid gap-5 my-5'>
             {
                 filterData.map(e => (<StoredJobs key={e.id} e={e}></StoredJobs>))
             }

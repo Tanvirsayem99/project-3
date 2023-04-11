@@ -18,7 +18,7 @@ const Navbar = () => {
         
       </ul>
     </div>
-    <Link to="/"><a className="normal-case text-xl font-semibold font-serif">Jobs Holder</a></Link>
+    <Link to="/"><h1 className="normal-case text-xl font-semibold font-serif">Jobs Holder</h1></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <div className="menu menu-horizontal px-1 md:flex gap-10">

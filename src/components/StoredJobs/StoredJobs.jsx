@@ -20,7 +20,7 @@ const StoredJobs = ({e}) => {
             <div className='border-2 border-t-slate-200  h-10 px-2 pt-1 '>{remoteOrOnsite.status}</div>
             <div className='border-2 border-t-slate-200 h-10 px-2 pt-1'>{remoteOrOnsite.status1}</div>
             </div>
-            <div className='flex gap-5 pt-5'>
+            <div className='flex gap-5 pt-5 md:flex-row flex-col'>
             <div className='flex'><img src="https://cdn-icons-png.flaticon.com/512/484/484167.png" alt="" className='w-5'/><p>{location}</p></div>
              <div className='flex'><img src="https://cdn-icons-png.flaticon.com/512/3135/3135673.png" alt="" className='w-5' /><p>{salary}</p></div>
             </div>
