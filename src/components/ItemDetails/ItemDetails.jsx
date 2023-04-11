@@ -7,16 +7,10 @@ import { addToDb } from '../../Utils/FakeDb';
 const ItemDetails = () => {
     const items = useLoaderData()
     const identity = useParams();
-    
     const existItem = items.find(e => e.id === identity.id);
-    
     const handlCart = id =>{
          addToDb(id)
-        
-
     }
-    
-    
     return (
         <div>
             <div className='bg-slate-200 h-[25vh] flex justify-center items-center'>
