@@ -8,7 +8,7 @@ const SingleItem = ({singleData}) => {
         <div className='bg-slate-50 '>
             <div className='p-5 pl-10 grid gap-3 '>
             <img src={logo} alt="" className='w-1/6'/>
-            <h3>{jobTitle}</h3>
+            <h3 className='font-semibold '>{jobTitle}</h3>
             <span>{companyName}</span>
             <div className='flex gap-5'>
             <div className='border-2 border-t-slate-200 px-2 py-1'>{remoteOrOnsite.status}</div>

@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div className="App bg-slate-200">
       <Navbar></Navbar>
       <Outlet></Outlet>
     </div>

@@ -35,7 +35,7 @@ const ItemDetails = () => {
                     </div>
                     <div className='flex gap-3'>
                     <img src="https://cdn-icons-png.flaticon.com/512/3850/3850259.png" alt="" className='w-5'/>
-                    <span><span className='font-semibold'>Job Title:</span>{existItem.jobTitle}</span>
+                    <span><span className='font-semibold text-sm'>Job Title: </span>{existItem.jobTitle}</span>
                     </div>
                 </div>
                 <h1 className='text-center text-2xl font-semibold my-5'>Contact Information</h1>
@@ -51,11 +51,11 @@ const ItemDetails = () => {
                     </div>
                     <div className='flex gap-3'>
                     <img src="https://cdn-icons-png.flaticon.com/512/6320/6320900.png" alt="" className='w-5'/>
-                    <span><span className='font-semibold'>Address:</span> {existItem.contact.address}</span>
+                    <span><span className='font-semibold text-sm'>Address:</span> {existItem.contact.address}</span>
                     </div>
                 </div>
                 <div className='text-center mt-5'>
-                <Link onClick={()=> handlCart(identity.id)} className="butoon w-24 py-3">Apply Now</Link>
+                <Link onClick={()=> handlCart(identity.id)} className="butoon  py-3">Apply Now</Link>
                 </div>
             </div>
         </div>
